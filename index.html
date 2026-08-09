@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Floral Academy Barmara</title>
+  <meta name="description" content="Official website of Floral Academy Barmara — quality and affordable education with digital study materials.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#home">
+        <div class="logo-mark">FA</div>
+        <div><strong>FLORAL ACADEMY</strong><span>BARMARA</span></div>
+      </a>
+      <button class="menu-btn" aria-label="Open menu">☰</button>
+      <nav class="menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#academics">Academics</a>
+        <a href="#study">Study Materials</a>
+        <a href="#notices">Notices</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <img src="assets/school.jpg" alt="Floral Academy Barmara school entrance">
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <div class="pill">QUALITY EDUCATION • AFFORDABLE FEES</div>
+        <h1>Welcome to<br><span>Floral Academy Barmara</span></h1>
+        <p>Learning today. Building a brighter tomorrow.</p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#study">Explore Study Materials</a>
+          <a class="btn light" href="#about">Know Our School</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats container">
+      <div><b>350+</b><span>Students</span></div>
+      <div><b>30</b><span>Teachers & Staff</span></div>
+      <div><b>Class 1–10</b><span>Academic Classes</span></div>
+      <div><b>Affordable</b><span>Education</span></div>
+    </section>
+
+    <section class="section shahil-section">
+      <div class="container shahil-card">
+        <div>
+          <p class="eyebrow">SCHOOL LEADERSHIP</p>
+          <h2>Welcome from <span>SHAHIL</span></h2>
+          <p>We are committed to supporting quality education and making useful learning resources accessible to every student of Floral Academy Barmara.</p>
+        </div>
+        <div class="initial">S</div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-head">
+        <p class="eyebrow">ABOUT OUR SCHOOL</p>
+        <h2>Education with care, discipline and purpose</h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p>Floral Academy Barmara is committed to providing quality education in a caring, disciplined and student-friendly environment. Our aim is to make good education accessible and affordable while helping every learner develop knowledge, confidence, creativity and strong values.</p>
+          <p>With a dedicated team of teachers and a growing community of students, the school focuses on academic learning as well as overall development.</p>
+        </div>
+        <div class="feature-card">
+          <div>🌸</div><h3>Our Vision</h3>
+          <p>To nurture responsible, confident and knowledgeable students who can contribute positively to society.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="academics" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">ACADEMICS</p>
+          <h2>Classes & Learning</h2>
+          <p>Choose a class to view its subjects and study resources.</p>
+        </div>
+        <div class="class-grid" id="classGrid"></div>
+      </div>
+    </section>
+
+    <section id="study" class="section container">
+      <div class="section-head">
+        <p class="eyebrow">DIGITAL LEARNING</p>
+        <h2>Study Materials</h2>
+        <p>Chapter-wise notes, syllabus, question answers and PDFs can be added here.</p>
+      </div>
+      <div class="study-panel">
+        <label for="classSelect">Select Class</label>
+        <select id="classSelect"></select>
+        <div id="subjects" class="subject-grid"></div>
+      </div>
+      <div class="notice-box">
+        <strong>For the school team:</strong> To add a PDF, place it inside the <code>materials</code> folder and update the corresponding link in <code>script.js</code>.
+      </div>
+    </section>
+
+    <section id="notices" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">LATEST UPDATES</p>
+          <h2>Notices & Announcements</h2>
+        </div>
+        <div class="notice-list">
+          <article><span class="date">NOTICE</span><h3>Welcome to the official website</h3><p>School notices, examination updates and important announcements will appear here.</p></article>
+          <article><span class="date">ACADEMIC</span><h3>Digital Study Materials</h3><p>Class-wise notes and syllabus will be uploaded for students.</p></article>
+          <article><span class="date">UPDATE</span><h3>Admissions & School Information</h3><p>Admission-related information can be published here by the school.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section container">
+      <div class="section-head">
+        <p class="eyebrow">OUR CAMPUS</p>
+        <h2>School Gallery</h2>
+      </div>
+      <div class="gallery">
+        <img src="assets/school.jpg" alt="Floral Academy Barmara entrance">
+        <div class="gallery-placeholder">More school photos<br><small>can be added here</small></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2>Contact Floral Academy Barmara</h2>
+          <p>For admissions, academic information, notices and school-related enquiries, please contact the school office.</p>
+        </div>
+        <div class="contact-card">
+          <p><strong>🏫 School</strong><br>Floral Academy Barmara</p>
+          <p><strong>📍 Location</strong><br>Barmara, Barpeta, Assam</p>
+          <p><strong>📚 Classes</strong><br>Class 1 to Class 10</p>
+          <p><strong>👥 Students / Teachers</strong><br>350+ Students / 30 Teachers & Staff</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div><strong>FLORAL ACADEMY BARMARA</strong><br><small>Quality education • Affordable learning</small></div>
+      <div>© <span id="year"></span> Floral Academy Barmara. All rights reserved. · Website by <strong>SHAHIL</strong></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
